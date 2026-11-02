@@ -92,6 +92,7 @@ sns.heatmap(conf_matrix_knn, annot=True, cmap='Blues', fmt='d', ax=axes[0],
 axes[0].set_title('KNN Testing Confusion Matrix')
 axes[0].set_xlabel('Predicted')
 axes[0].set_ylabel('Actual')
+
 sns.heatmap(conf_matrix_svm, annot=True, cmap='Blues', fmt='d', ax=axes[1],
             xticklabels=labels, yticklabels=labels)
 axes[1].set_title('SVM Testing Confusion Matrix')
