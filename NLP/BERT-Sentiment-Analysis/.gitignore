@@ -1,0 +1,13 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+.DS_Store
+
+# Large model weights
+*.h5
+*.keras
+
+# Dataset files
+*.csv
+*.zip
