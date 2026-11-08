@@ -1,0 +1,8 @@
+tensorflow==2.21.0
+tf-keras==2.21.0
+transformers==4.57.6
+datasets==4.4.1
+huggingface-hub==0.36.2
+seqeval
+numpy
+tqdm

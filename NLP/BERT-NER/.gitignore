@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Dataset and downloaded caches
+data/
+datasets/
+.cache/
+huggingface/
+*.arrow
+
+# Training checkpoints and logs
+logs/
+runs/
+checkpoint-*/
+
+# Temporary and archive files
+*.zip
+*.tmp
+.DS_Store
+
+# Environment variables and secrets
+.env
+*.pem
