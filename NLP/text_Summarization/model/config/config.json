@@ -1,0 +1,18 @@
+{
+  "source": "Coursera C4W2 Assignment-style Transformer adapted to cleaned SAMSum",
+  "num_layers": 4,
+  "embedding_dim": 256,
+  "num_heads": 8,
+  "fully_connected_dim": 1024,
+  "vocab_size": 34145,
+  "encoder_maxlen": 150,
+  "decoder_maxlen": 50,
+  "epochs": 20,
+  "global_batch_size": 64,
+  "learning_rate": 0.0002,
+  "best_epoch": 13,
+  "best_validation_loss": 5.073729763752526,
+  "train_examples": 14637,
+  "validation_examples": 814,
+  "test_examples": 819
+}

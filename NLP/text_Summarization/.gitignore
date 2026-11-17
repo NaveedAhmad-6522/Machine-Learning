@@ -1,0 +1,50 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Dataset files (keep datasets out of GitHub)
+data/
+datasets/
+*.csv
+*.tsv
+
+# TensorFlow logs and temporary files
+logs/
+logs/
+tensorboard/
+*.log
+*.tmp
+
+# Temporary archives
+*.zip
+*.tar
+*.gz
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
