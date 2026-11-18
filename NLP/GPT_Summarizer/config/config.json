@@ -1,0 +1,18 @@
+{
+    "vocab_size": 8192,
+    "max_length": 768,
+    "d_model": 512,
+    "num_heads": 8,
+    "num_layers": 6,
+    "d_ff": 2048,
+    "dropout": 0.1,
+    "pad_id": 0,
+    "special_tokens": {
+        "pad": 0,
+        "bos": 1,
+        "eos": 2,
+        "unk": 3,
+        "dialogue": 4,
+        "summary": 5
+    }
+}
